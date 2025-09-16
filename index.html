@@ -28,9 +28,6 @@
             text-align: center;
             color: white;
             padding: 2rem;
-            background-size: cover;
-            background-position: center;
-            background-image: url('background_hero_img.png');
         }
         .hero-section::before {
             content: '';
@@ -218,6 +215,12 @@
 
     <!-- Hero Section -->
     <div class="hero-section">
+        <!-- Background Video -->
+        <video class="absolute inset-0 w-full h-full object-cover -z-10" autoplay loop muted playsinline poster="hero_sec_vdo.mp4">
+            <!-- A placeholder video URL is used here. Replace with your actual video file. -->
+            <source src="hero_sec_vdo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
         <!-- GNB -->
         <nav id="navbar" class="navbar">
             <div class="logo">
@@ -287,7 +290,7 @@
     <section class="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
         <div class="max-w-7xl mx-auto md:flex md:items-center md:justify-between md:space-x-8">
             <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0 fade-in-up">
-                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-800">즉흥적인 순간, 실시간 매칭</h2>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-800">즉흥적 순간, 실시간 매칭</h2>
                 <p class="text-base sm:text-lg text-gray-600 leading-relaxed">
                     앱을 켜고 내 주변 작가를 실시간으로 찾아보세요.<br>
                     예약 과정 없이 즉석 촬영 만남도 가능합니다.
@@ -404,7 +407,7 @@
                 <div class="bg-gray-100 p-8 rounded-2xl shadow-sm text-center md:w-1/2 flex flex-col items-center fade-in-up" style="transition-delay: 0.2s;">
                     <h3 class="text-2xl font-bold text-gray-900 mb-2">모델</h3>
                     <p class="text-base text-gray-600 mb-8 leading-relaxed">
-                         사진이 필요한 사람들에게 전문적인 촬영을 쉽고 편리하게 제공합니다.
+                        사진이 필요한 사람들에게 전문적인 촬영을 쉽고 편리하게 제공합니다.
                     </p>
                     <div class="flex flex-col gap-6 w-full text-left">
                         <div class="bg-white p-6 rounded-xl shadow-sm">
